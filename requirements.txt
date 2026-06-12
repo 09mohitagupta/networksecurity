@@ -1,3 +1,12 @@
 python-dotenv
 pandas
 numpy
+pymongo
+certifi
+
+-e .
+'''
+-e . :- when we install requiremets.txt, all the files get installed and when it comes to
+-e ., it directs it to setup.py file and then entire setup.py gets executed
+basically it is referring to setup.py file
+'''
