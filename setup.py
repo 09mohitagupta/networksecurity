@@ -1,6 +1,7 @@
 # setup.py: This script allows you to package your networksecurity folder. 
 # It means you can install your own project as a library using pip install -e.
 '''
+think of it like :- setup() = Project Information Form
 The setup.py file is an essential part of packaging and 
 distributing Python projects. It is used by setuptools 
 (or distutils in older Python versions) to define the configuration 
@@ -15,6 +16,12 @@ find- packages : scans through all the folders and where ever it finds init.py f
 now considered as package
 
 set-up : responsible for providing all the info about the project
+
+
+typing :- The typing library does not contain the actual data types themselves. Python already knows what a standard list, 
+string, or integer is.
+the typing module is a built-in library specifically designed to provide advanced
+annotations (hints) for complex data structures.
 '''
 def get_requirements()->List[str]:
     '''
